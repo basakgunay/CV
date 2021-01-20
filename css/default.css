@@ -2,6 +2,9 @@ body {
   background-color: white;
 }
 
+
+
+/* left div features */
 div.a {
   position: absolute;
   padding: 50px;
@@ -9,23 +12,9 @@ div.a {
   height: 1280px;
   background: rgb(104, 126, 114);
 
- 
 } 
 
-div.b {
-  position: absolute;
-  left: 380px;
-  padding: 15px;
-  width: 80%;
-  height: 1350px;
-  border: 3px solid white;
-  background: white;
-} 
-
-div.ax{
-  padding-bottom: 20px;
-}
-
+/* profile picture */
 img.profile_picture{
 	border-radius: 50%;
 	position: sticky;
@@ -34,13 +23,36 @@ img.profile_picture{
   padding: 20px;
 }
 
+/* title format */
 h2{
 	color: white;
 	font-family: Verdana, sans-serif;
 	font-size: 20px;
-
 }
 
+/* contact detail info format */
+p.left_div{
+  color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+}
+
+/* linked-in / github icons */
+img.icon{
+  width: 30px;
+  height: 30px;
+}
+
+/* tag text format */
+a{
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+}
+
+div.ax{
+  padding-bottom: 20px;
+}
 
 ul.info{
 	color: white;
@@ -52,6 +64,19 @@ ul.info{
 
 }
 
+
+/* right div features */
+div.b {
+  position: absolute;
+  left: 380px;
+  padding: 15px;
+  width: 80%;
+  height: 1350px;
+  border: 3px solid white;
+  background: white;
+} 
+
+
 h1.name{
 	color: rgb(104, 126, 114);
 	font-size: 50px;
@@ -59,6 +84,7 @@ h1.name{
 	
 }
 
+/* the line under the name */
 hr{
   height: 12px;
   border: 0;
@@ -67,64 +93,65 @@ hr{
   margin-left: 0;
 }
 
+
 h2.job{
 	color:rgba(104, 126, 114, 0.534);
 	font-size: 40px;
 	text-align: left;
 }
 
-
-p.left_div{
-  color: white;
-  font-family: Verdana, sans-serif;
-  font-size: 16px;
-}
-
-a{
-  color: white;
-  text-decoration: none;
-  font-family: Verdana, sans-serif;
-}
+/* inside of boxes of the div on the right */
 
 div.box{
-background-color: white;
-  width: 650px;
-  border: 1px solid black;
-  padding-left: 10px;
-  padding-top: 1px;
-  padding-right: 10px;
-  box-shadow: 10px 7px rgba(104, 126, 114, 0.534);
+  background-color: white;
+    width: 650px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-right: 10px;
+    box-shadow: 10px 7px rgba(104, 126, 114, 0.534);
+  }
+
+  h3.detail{
+    color:rgba(104, 126, 114, 0.534) ;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+  }
+
+  p.detail{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+  }
   
-}
+  strong{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+  }
+  
+  i{
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+  }
+  
+  ul.detail{
+    font-family: Verdana, sans-serif;
+    font-size: 13px;
+  }
 
-img.icon{
-  width: 30px;
-  height: 30px;
-}
 
-h3.detail{
-  color:rgba(104, 126, 114, 0.534) ;
-  font-family: Verdana, sans-serif;
-	font-size: 20px;
-}
 
-p.detail{
-  font-family: Verdana, sans-serif;
-	font-size: 15px;
-}
 
-strong{
-  font-family: Verdana, sans-serif;
-	font-size: 15px;
-}
 
-i{
-  font-family: Verdana, sans-serif;
-  font-size: 13px;
-}
 
-ul.detail{
-  font-family: Verdana, sans-serif;
-  font-size: 13px;
-}
+
+
+
+
+
+
+
+
+ 
+
+
 
